@@ -1,0 +1,39 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "diskName": {
+            "value": "az104-03a-disk4"
+        },
+        "location": {
+            "value": "eastus"
+        },
+        "sku": {
+            "value": "StandardSSD_LRS"
+        },
+        "diskSizeGb": {
+            "value": 16
+        },
+        "sourceResourceId": {
+            "value": ""
+        },
+        "sourceUri": {
+            "value": ""
+        },
+        "osType": {
+            "value": ""
+        },
+        "createOption": {
+            "value": "empty"
+        },
+        "hyperVGeneration": {
+            "value": ""
+        },
+        "diskEncryptionSetType": {
+            "value": "EncryptionAtRestWithPlatformKey"
+        },
+        "networkAccessPolicy": {
+            "value": "AllowAll"
+        }
+    }
+}
